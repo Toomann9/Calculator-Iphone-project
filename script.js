@@ -1,10 +1,16 @@
+// Variables declarations and Initializations
+
 let display = document.getElementsByClassName('screen-section')[0];
 let keyboard = document.getElementsByClassName('keyboard-section')[0];
 let buttons = keyboard.getElementsByClassName('round-button');
 
+// Loop
+
 for(let i = 0; i < buttons.length; i++){
     let theClikedItem = buttons[i].addEventListener('click', displayFn)
 }
+
+// Defining functions
 
 function multiply(n1, n2){
     product = (n1 * n2);
