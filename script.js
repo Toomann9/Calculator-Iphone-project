@@ -18,6 +18,7 @@ function multiply(n1, n2){
 }
 
 function displayFn(e){
+    display.style.fontweight="12px";
     if (e.target.innerText == "AC"){
         display.innerText = "";
     } 
@@ -49,3 +50,13 @@ function displayFn(e){
     }
 }
 
+function switchTheme (){
+    let colorChange = document.getElementById('container');
+    let currentColor = colorChange.style.backgroundColor;
+    if (currentColor === 'black'){
+        colorChange.style.backgroundColor="firebrick";
+    } else {
+        colorChange.style.backgroundColor = 'black';
+    }
+    
+}

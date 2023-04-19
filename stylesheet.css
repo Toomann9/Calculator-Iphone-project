@@ -2,36 +2,46 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    /* color: f; */
+}
+
+body{
+    margin: 0 39%;
 }
 
 .container{
-    width: 22%;
-    margin-left: 40%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: black;
-    height: 70%;
-    margin-top: 8%;
+    /* height: auto; */
     border-radius: 18px;
-    padding-top: 80px;
-    margin-bottom: 30px;
+    padding: 0 2rem;
 }
 
 .screen-section{
-    padding: 8%;
+    padding: 1rem 0.4rem;
+    width: 90%;
+    height: 18px;
     background-color: rgb(255, 255, 255);
-    margin: 15px 30px;
+    margin: 1.5rem auto;
     border-radius: 10px;
 }
 
 .keyboard-section{
-    margin-top: 10px;
-    margin-left: 24px;
-    padding-bottom: 20px;
-    padding-left: 10px;
+    margin: 0.5rem auto;
+    padding: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .column-div{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .first-row{
@@ -96,4 +106,8 @@
 
 #normal{
     background-color: rgb(155, 156, 156);
+}
+
+.keyboard-section .column-div button:hover{
+    background-color: white;
 }
